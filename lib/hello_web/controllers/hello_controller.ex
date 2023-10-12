@@ -10,5 +10,13 @@ render(conn, :index)
   end
 
 
+  def show(coon, %{"messenger" => messenger}) do
+
+
+render(coon, :show, messenger:  messenger)
+
+  end
+
+
 
 end
