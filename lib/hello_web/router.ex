@@ -22,6 +22,10 @@ defmodule HelloWeb.Router do
     get "/hello", HelloController, :index
 
     get "/hello/:messenger", HelloController, :show
+
+    get "/welcome", HelloController, :welcome
+
+    get "/welcome/:name", HelloController, :show_welcome
   end
 
 
