@@ -4,10 +4,7 @@ defmodule HelloWeb.HelloHTML do
   embed_templates "hello_html/*"
 
 
-  def index(assigns) do
-
-
-  end
+  def index(_assigns) do end
 
 
 end
